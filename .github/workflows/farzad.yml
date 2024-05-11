@@ -2,7 +2,7 @@ on:
   push:
     branches:
       - farzad
-name: 🚀 Deploy website on push
+name: 🚀 Deploy website on push (farzad)
 
 jobs:
   web-deploy:
