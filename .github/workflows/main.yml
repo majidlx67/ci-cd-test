@@ -1,8 +1,8 @@
 on: 
   push:
     branches:
-      - farzad
-name: 🚀 Deploy website on push (farzad)
+      - majid
+name: 🚀 Deploy website on push (majid)
 
 jobs:
   web-deploy:
@@ -19,4 +19,4 @@ jobs:
         server: ${{ secrets.FTP_SERVER }}
         username: ${{ secrets.FTP_USER }}
         password: ${{ secrets.FTP_PASS }}
-        server-dir: /farzad/
+        server-dir: /majid/
